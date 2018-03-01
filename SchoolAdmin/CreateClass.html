@@ -177,7 +177,7 @@
 	
 	</div>
 	</aside>
- </div>
+  </div>
 
   <div class="view-container">
 
@@ -475,8 +475,7 @@
 
 </section>
     </div>
-    <!-- uiView:  -->
-	<section ui-view="" id="content" class="animate-fade-up ng-scope"><!-- Breadcrumbs -->
+    <!-- uiView:  --><section ui-view="" id="content" class="animate-fade-up ng-scope"><!-- Breadcrumbs -->
 <div class="region-breadcrumbs ng-scope">
     <ol class="breadcrumb">
         <li><a href="/#"><i class="fa fa-home"></i></a></li>
@@ -485,192 +484,95 @@
 </div>
 <!-- end Breadcrumbs -->
 
+<div class="page page-dashboard ng-scope" data-ng-controller="DashboardCtrl">
 
-<div class="page ng-scope" data-ng-controller="TreeDemoCtrl">
+<section>
 
+  <div class="row">
 
-  <section class="md-content-section">
-    <md-toolbar md-scroll-shrink="" class="md-accent md-default-theme" style="transform: translate3d(0px, 0px, 0px);">
-      <div class="md-toolbar-tools">
-        Teacher's list
-      </div>
-    </md-toolbar>
+    <div class="col-md-12">
 
-    <md-content class="md-default-theme" scroll-shrink="true" style="margin-top: -25px; margin-bottom: -25px; transform: translate3d(0px, 25px, 0px);">
-      <div class="md-content__body">
-
-        <div class="table-dynamic">
-          <div class="table-filters">
-            <div class="row">
-              <div class="col-sm-4 col-xs-6">
-                <form class="ng-pristine ng-valid">
-                  <input type="text" placeholder="search" class="form-control ng-pristine ng-untouched ng-valid" aria-invalid="false">
-                </form>
-              </div>
-              <div class="col-sm-3 col-xs-6 filter-result-info">
-                    <span class="ng-binding">
-                        Showing 25/25 entries
-                    </span>
-              </div>
-            </div>
-          </div>
-
-          <table class="table table-bordered table-striped table-responsive">
-            <thead>
-            <tr>
-              <th><div class="th">
-                Name
-                        <span class="glyphicon glyphicon-chevron-up" role="button" tabindex="0"></span>
-                        <span class="glyphicon glyphicon-chevron-down" role="button" tabindex="0"></span>
-              </div></th>
-              <th><div class="th">
-                Address
-                        <span class="glyphicon glyphicon-chevron-up" role="button" tabindex="0"></span>
-                        <span class="glyphicon glyphicon-chevron-down" role="button" tabindex="0"></span>
-              </div></th>
-              <th><div class="th">
-                Phone
-                        <span class="glyphicon glyphicon-chevron-up" role="button" tabindex="0"></span>
-                        <span class="glyphicon glyphicon-chevron-down" role="button" tabindex="0"></span>
-              </div></th>
-			  <th><div class="th">
-                Email Address
-                        <span class="glyphicon glyphicon-chevron-up" role="button" tabindex="0"></span>
-                        <span class="glyphicon glyphicon-chevron-down" role="button" tabindex="0"></span>
-              </div></th>
-              <th><div class="th">
-                Subject
-                        <span class="glyphicon glyphicon-chevron-up"  role="button" tabindex="0"></span>
-                        <span class="glyphicon glyphicon-chevron-down"  role="button" tabindex="0"></span>
-              </div></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="ng-scope">
-              <td class="ng-binding">Teacher 1</td>
-              <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">English</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 2</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Hindi</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 3</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Mathematics</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 4</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 5</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 6</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 6</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 6</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 6</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-			<tr class="ng-scope">
-              <td class="ng-binding">Teacher 6</td>
-             <td class="ng-binding">sadasd, adsdfdf, sfgsdffasdf, dfsff-123</td>
-              <td class="ng-binding">292544556</td>
-			  <td class="ng-binding">abc@gmail.com</td>
-              <td class="ng-binding">Social Science</td>
-            </tr>
-            </tbody>
-          </table>
-
-          <footer class="table-footer">
-            <div class="row">
-              <div class="col-md-6 page-num-info">
-                    <span>
-                        Show
-                        <select class="ng-pristine ng-untouched ng-valid" aria-invalid="false">
-						<option value="0" label="3">3</option>
-						<option value="1" label="5">5</option>
-						<option value="2" selected="selected" label="10">10</option>
-						<option value="3" label="20">20</option>
-						</select>
-                        entries per page
-                    </span>
-              </div>
-              <div class="col-md-6 text-right pagination-container">
-                <ul class="pagination-sm pagination ng-isolate-scope ng-valid ng-dirty ng-valid-parse" ng-model="currentPage" max-size="4" rotate="false" boundary-links="true" aria-invalid="false">
-					<li ng-if="boundaryLinks" class="ng-scope disabled">
-						<a href="" class="ng-binding">First</a>
-					</li>
-					<li class="ng-scope disabled">
-						<a href="" class="ng-binding">Previous</a>
-					</li>
-					<li class="ng-scope active">
-						<a href="" class="ng-binding">1</a>
-					</li>
-					<li class="ng-scope">
-						<a href="" class="ng-binding">2</a>
-					</li>
-					<li class="ng-scope">
-						<a href="" class="ng-binding">3</a>
-					</li>
-					<li class="ng-scope">
-						<a href="" class="ng-binding">Next</a>
-					</li>
-					<li class="ng-scope">
-						<a href="" class="ng-binding">Last</a>
-					</li>
-				</ul>
-              </div>
-            </div>
-          </footer>
+      <section class="md-content-section">
+      <md-toolbar class="md-accent md-default-theme">
+        <div class="md-toolbar-tools">
+          Basic input usage
         </div>
-      </div>
-    </md-content>
+      </md-toolbar>
+
+      <md-content class="md-default-theme">
+        <div class="md-content__body">
+          <div ng-app="inputBasicDemo" ng-controller="InputDemoCtrl" layout="column" class="ng-scope">
+            <md-content md-theme="docs-dark" class="md-padding md-docs-dark-theme" layout="row" layout-sm="column" style="font-size:1.2em">
+              <md-input-container class="md-docs-dark-theme md-input-has-value">
+                <label for="input_44">Title</label>
+                <input ng-model="user.title" class="ng-pristine ng-valid md-input ng-touched" id="input_44" aria-invalid="false">
+              </md-input-container>
+              <md-input-container class="md-docs-dark-theme md-input-has-value">
+                <label for="input_45">Email</label>
+                <input ng-model="user.email" type="email" class="ng-pristine ng-valid md-input ng-valid-email ng-touched" id="input_45" aria-invalid="false">
+              </md-input-container>
+            </md-content>
+            <md-content class="md-padding md-default-theme">
+              <form name="userForm" class="ng-pristine ng-valid ng-valid-md-maxlength">
+                <div layout="" layout-sm="column">
+                  <md-input-container style="width:80%" class="md-default-theme md-input-has-value">
+                    <label for="input_46">Company (Disabled)</label>
+                    <input ng-model="user.company" disabled="" class="ng-pristine ng-untouched ng-valid md-input" id="input_46" aria-invalid="false">
+                  </md-input-container>
+                  <md-input-container flex="" class="md-default-theme">
+                    <label for="input_47">Submission Date</label>
+                    <input type="date" ng-model="user.submissionDate" class="ng-pristine ng-valid md-input ng-touched" id="input_47" aria-invalid="false">
+                  </md-input-container>
+                </div>
+                <div layout="" layout-sm="column">
+                  <md-input-container flex="" class="md-default-theme">
+                    <label for="input_48">First Name</label>
+                    <input ng-model="user.firstName" class="ng-pristine ng-valid md-input ng-touched" id="input_48" aria-invalid="false">
+                  </md-input-container>
+                  <md-input-container flex="" class="md-default-theme">
+                    <label for="input_49">Last Name</label>
+                    <input ng-model="theMax" class="ng-pristine ng-valid md-input ng-touched" id="input_49" aria-invalid="false">
+                  </md-input-container>
+                </div>
+                <md-input-container flex="" class="md-default-theme md-input-has-value">
+                  <label for="input_50">Address</label>
+                  <input ng-model="user.address" class="ng-pristine ng-valid md-input ng-touched" id="input_50" aria-invalid="false">
+                </md-input-container>
+                <div layout="" layout-sm="column">
+                  <md-input-container flex="" class="md-default-theme md-input-has-value">
+                    <label for="input_51">City</label>
+                    <input ng-model="user.city" class="ng-pristine ng-valid md-input ng-touched" id="input_51" aria-invalid="false">
+                  </md-input-container>
+                  <md-input-container flex="" class="md-default-theme md-input-has-value">
+                    <label for="input_52">State</label>
+                    <input ng-model="user.state" class="ng-pristine ng-valid md-input ng-touched" id="input_52" aria-invalid="false">
+                  </md-input-container>
+                  <md-input-container flex="" class="md-default-theme md-input-has-value">
+                    <label for="input_53">Postal Code</label>
+                    <input ng-model="user.postalCode" class="ng-pristine ng-valid md-input ng-touched" id="input_53" aria-invalid="false">
+                  </md-input-container>
+                </div>
+                <md-input-container flex="" class="md-default-theme md-input-has-value" style="height: auto;">
+                  <label for="input_54">Biography</label>
+                  <textarea ng-model="user.biography" columns="1" md-maxlength="150" class="ng-pristine ng-valid md-input ng-valid-md-maxlength ng-touched" id="input_54" rows="1" ng-trim="false" aria-multiline="true" aria-invalid="false" style="height: 78px;"></textarea>
+                <div class="md-char-counter">102/150</div></md-input-container>
+              </form>
+            </md-content>
+          </div>
+        </div>
+      </md-content>
+
+    </section>
+    </div>
+    
+
+  </div>
+
+
+</section>
 
   </section>
-
-</div></section>
-
-
-</div>
-
+  </div>
 
   <md-sidenav class="md-sidenav-right md-whiteframe-z2 md-theme md-closed ng-isolate-scope" md-component-id="rightmessages" tabindex="-1">
     <div class="ng-scope"><md-toolbar class="md-primary ng-scope md-default-theme">
@@ -921,12 +823,13 @@
 </div>
 
 <!-- Theme main app compiled with grunt (replace with below scripts if not using grunt) -->
-<script id="app_js" type="text/javascript" src="../dist/js/app.js"></script><script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+<script id="app_js" type="text/javascript" src="../dist/js/app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
 
 <!-- Replace main.js with all of these if not using grunt to compile -->
 <!--<script src="bower_components/bootstrap/../dist/js/bootstrap.min.js"></script>
 <script src="scripts/gmap.js"></script>-->
-<script src="bower_components/slimScroll/jquery.slimscroll.min.js"></script> 
+<script src="bower_components/slimScroll/jquery.slimscroll.min.js"></script>
 <!--<script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/angular-animate/angular-animate.min.js"></script>
 <script src="bower_components/angular-route/angular-route.min.js"></script>
@@ -968,7 +871,7 @@
 
 
 <div class="flotTip" style="display: none; position: absolute; left: 251px; top: 620px;"></div><div class="jqvmap-label" style="display: none;"></div><div class="jqvmap-label" style="display: none;"></div><div class="jqvmap-label" style="display: none;"></div><div class="jqvmap-label" style="display: none;"></div>
-<script>
+<script> 
 $(function(){
         $("#nav").slimScroll({
           size: '8px', 
@@ -979,6 +882,6 @@ $(function(){
           alwaysVisible: false     
         });
       });
-</script>
-
+ </script>
+<script type="text/javascript" src="../dist/js/click.js"></script>
 </body></html>
