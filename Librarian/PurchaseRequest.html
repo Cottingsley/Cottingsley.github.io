@@ -85,7 +85,7 @@
                 <!-- <li><a md-ink-ripple="#bbb" href="./nestedlists.html"><i class="fa fa-circle submenu__icon"></i><span>Nested Lists</span></a></li> -->
             </ul>
         </li>
-        
+    
 	</ul>
 	
 </div>
@@ -402,231 +402,54 @@
 <section class="md-content-section">
 <md-content class="md-default-theme">
       <div class="md-content__body">
-        <div class="tabset">
-  <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
-  <label for="tab1">All Books</label>
-  <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
-  <label for="tab2">Issued Books</label>
-  <!-- Tab 3 -->
-  <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
-  <label for="tab3">Issuable Books</label>
-  
-  <span class="pull-right">
-  <button class="btn-sm md-fab md-primary md-button md-default-theme" data-toggle="modal" data-target="#Create_book_catalogue">
-  <i class="fa fa-2x fa-plus"></i>
-    </button>
-	Create catalogue
-	</span>
-  <div class="tab-panels">
-    <section id="marzen" class="tab-panel">
-      <div class="row padding-bottom">
-	  <div class="col-md-12">
-            <div class="input-group" id="adv-search">
-                <input type="text" class="form-control" placeholder="Search for books" />
-                <div class="input-group-btn">
-                    <div class="btn-group" role="group">
-                        <div class="dropdown dropdown-lg">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                            <div class="dropdown-menu dropdown-menu-right" role="menu">
-                                <form class="form-horizontal" role="form">
-                                  <div class="form-group">
-                                    <label for="filter">Filter by</label>
-                                    <select class="form-control">
-                                        <option value="0" selected>All Snippets</option>
-                                        <option value="1">Book name</option>
-                                        <option value="2">ISBN</option>
-                                        <option value="3">Genre</option>
-                                        <option value="4">Author name</option>
-                                    </select>
-                                  </div>
-                                 <div class="form-group">
-                                    <label for="contain">Contains the words</label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                                </form>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                    </div>
-                </div>
-            </div>
-          </div>
-		</div>
 	  <div class="row">
-		<div class="col-md-12">
-				<ul class="wrap-items style-i cl">
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issuable_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issuable Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issuable_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issuable Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issued_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issued Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issued_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issued Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-				</ul>
-			</div>
-
-	</div>
-  </section>
-    <section id="rauchbier" class="tab-panel">
-	<div class="row padding-bottom">
-	  <div class="col-md-12">
-            <div class="input-group" id="adv-search">
-                <input type="text" class="form-control" placeholder="Search for books" />
-                <div class="input-group-btn">
-                    <div class="btn-group" role="group">
-                        <div class="dropdown dropdown-lg">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                            <div class="dropdown-menu dropdown-menu-right" role="menu">
-                                <form class="form-horizontal" role="form">
-                                  <div class="form-group">
-                                    <label for="filter">Filter by</label>
-                                    <select class="form-control">
-                                        <option value="0" selected>All Snippets</option>
-                                        <option value="1">Book name</option>
-                                        <option value="2">ISBN</option>
-                                        <option value="3">Genre</option>
-                                        <option value="4">Author name</option>
-                                    </select>
-                                  </div>
-                                 <div class="form-group">
-                                    <label for="contain">Contains the words</label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                                </form>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <div class="col-md-12 product_content">
+                        <form class="form-horizontal ng-pristine ng-valid" role="form">
+                  <div class="form-group">
+                    <label for="inputBookName" class="col-sm-2 control-label">Book Order</label>
+					<div class="col-sm-8">
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="inputBookName" placeholder="Book name">
+                    </div>
+					<div class="col-sm-4">
+                      <input type="text" class="form-control" id="inputAuthorName" placeholder="Author name">
+                    </div>
+					<div class="col-sm-4">
+                      <input type="text" class="form-control" id="inputBookName" placeholder="Quantity">
+                    </div>
+					</div>
+					<div class="col-sm-2">
+					<a><span><i class="fa fa-plus"></i></span>Add more</a>
+					</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMagazineName" class="col-sm-2 control-label">Magazine Order</label>
+                    <div class="col-sm-8">                   
+                      <input type="text" class="form-control" id="inputBookName" placeholder="Mazagine name">
+                    </div>
+					<div class="col-sm-2">
+					<a><span><i class="fa fa-plus"></i></span>Add more</a>
+					</div>
+                  </div>
+				  <div class="form-group">
+                    <label for="inputJournal" class="col-sm-2 control-label">Journal Order</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="inputJournal" placeholder="Journal name">
+                    </div>
+					<div class="col-sm-2">
+					<a><span><i class="fa fa-plus"></i></span>Add more</a>
+					</div>
+                  </div>
+				  
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button class="btn-width-medium md-raised md-primary md-button md-default-theme" ng-transclude="">
+					  <span class="ng-scope">Submit</span></button>
+                    </div>
+                  </div>
+                </form>
                     </div>
                 </div>
-            </div>
-          </div>
-		</div>
-      <div class="row">
-
-			<div class="col-md-12">
-				<ul class="wrap-items style-i cl">
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issued_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issued Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issued_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issued Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-    </section>
-    <section id="dunkles" class="tab-panel">
-	<div class="row padding-bottom">
-	  <div class="col-md-12">
-            <div class="input-group" id="adv-search">
-                <input type="text" class="form-control" placeholder="Search for books" />
-                <div class="input-group-btn">
-                    <div class="btn-group" role="group">
-                        <div class="dropdown dropdown-lg">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                            <div class="dropdown-menu dropdown-menu-right" role="menu">
-                                <form class="form-horizontal" role="form">
-                                  <div class="form-group">
-                                    <label for="filter">Filter by</label>
-                                    <select class="form-control">
-                                        <option value="0" selected>All Snippets</option>
-                                        <option value="1">Book name</option>
-                                        <option value="2">ISBN</option>
-                                        <option value="3">Genre</option>
-                                        <option value="4">Author name</option>
-                                    </select>
-                                  </div>
-                                 <div class="form-group">
-                                    <label for="contain">Contains the words</label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                                </form>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                    </div>
-                </div>
-            </div>
-          </div>
-		</div>
-      <div class="row">
-
-			<div class="col-md-12">
-				<ul class="wrap-items style-i cl">
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issuable_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issuable Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-					<li class="list-item">
-						<div class="bookinner img90_70" data-toggle="modal" data-target="#Issuable_book_view">
-							<div class="item-data">
-							<h2 class="item-title">
-							<a href="#">Issuable Book</a></h2>
-							<span class="item-meta"> By abcd</span>
-							</div><!-- End .item-data -->	
-						</div>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-    </section>
-  </div>
-  
-</div>
-
       </div>
     </md-content>
 </section>
@@ -934,7 +757,7 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-6 product_content">
+                    <div class="col-md-12 product_content">
                         <h4>Book Id: <span>51526</span></h4>
                         <div class="rating">
                             <span class="glyphicon glyphicon-star"></span>
@@ -944,38 +767,43 @@
                             <span class="glyphicon glyphicon-star"></span>
                             (10 reviews)
                         </div>
-                        
-                        <h3> Publisher :<small class="pre-cost"> Publisher name</small></h3>
-						<h3> Language :<small class="pre-cost"> English</small></h3>
-						<h3> ISBN :<small class="pre-cost"> 978-0441172717</small></h3>
-						<h3> Genre :<small class="pre-cost"> Science</small></h3>
-						<h3> Shelf number :<small class="pre-cost"> 01</small></h3>
-                        <h3> Column number :<small class="pre-cost"> 10</small></h3>
-						
-						</div>
-                        <div class="col-md-6">
-						<h3>Issue to:</h3>
-						<div class="row">
-                            <div class="col-md-12">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <select class="form-control" name="select">
-                                    <option value="" selected="">Class</option>
-                                    <option value="black">1st Standard</option>
-                                    <option value="white">2nd Standard</option>
-                                    <option value="gold">3rd Standard</option>
-                                    <option value="rose gold">4th Standard</option>
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
                                 </select>
                             </div>
                             <!-- end col -->
-                            <div class="col-md-12">
-                               <input type="text" class="form-control" id="inputRollNo" placeholder="Roll no">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Capacity</option>
+                                    <option value="">16GB</option>
+                                    <option value="">32GB</option>
+                                    <option value="">64GB</option>
+                                    <option value="">128GB</option>
+                                </select>
                             </div>
                             <!-- end col -->
-                        
-						</div>
+                            <div class="col-md-4 col-sm-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">QTY</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                            <!-- end col -->
+                        </div>
                         <div class="space-ten"></div>
                         <div class="btn-ground">
-                            
-                            <button type="button" class="btn btn-primary">Submit</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
                         </div>
                     </div>
                 </div>
