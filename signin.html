@@ -131,7 +131,7 @@
 
                 <section>
                     <p class="text-center"><a href="signin.html#/pages/forgot">Forgot your password?</a></p>
-                    <p class="text-center text-muted text-small">Don't have an account yet? <a href="signin.html#/pages/signup">Sign up</a></p>
+                    <p class="text-center text-muted text-small">Don't have an account yet? <a href="signin.html#/pages/signup">Register</a></p>
                 </section>
                 
             </div>
@@ -145,23 +145,27 @@
 <script>
 var signinButton = $("#btnSignin");
 var txtusername = $("#txtusername");
+var txtpassword = $("#input_60");
 signinButton.on("click",function(e){
 debugger;
 e.preventDefault();
-if(txtusername.val()=="SchoolAdmin"){
+if(txtusername.val()=="SchoolAdmin" && txtpassword.val()=="SchoolAdmin"){
 window.location.href  = "SchoolAdmin/TeacherList.html";
 }
-if(txtusername.val()=="Principal"){
+if(txtusername.val()=="Principal" && txtpassword.val()=="Principal"){
 window.location.href = "Principal/TeacherList.html";
 }
-if(txtusername.val()=="Teacher"){
+if(txtusername.val()=="Teacher" && txtpassword.val()=="Teacher"){
 window.location.href  = "Teacher/TimeSchedule.html";
 }
 if(txtusername.val()=="Parent"){
 window.location.href  = "Parent/index.html";
 }
-if(txtusername.val()=="Student"){
+if(txtusername.val()=="Student" && txtpassword.val()=="Student"){
 window.location.href  = "Student/HomeworkList.html";
+}
+if(txtusername.val()=="Librarian" && txtpassword.val()=="Librarian"){
+window.location.href  = "Librarian/Catalogue.html";
 }
 });
 </script>
